@@ -1,66 +1,125 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# Laravel İle Gelişmiş Müşteri Yönetim Paneli Geliştirme
+Bu proje, kullanıcı yönetimi ve müşteri yönetimi üzerine odaklanan bir geliştirme projesidir. 
 
-## About Laravel
+Proje, Laravel ve Bootstrap kullanılarak oluşturulmuştur ve aşağıda belirtilen özellikleri içermektedir:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Ön Kurulum
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+İlk önce bilgisayarnızda aşağıdakileri kurulu olduğundan emin olun:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+* Node.js 'npm kullanılabilmesi için'
+* Xampp 'Apache ve Mysql start edilmiş halinde'
+* Laravel 
 
-## Learning Laravel
+## Kurulum
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+1. Projenin kaynak kodunu bilgisayarınıza indirin veya kopyalayın.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+2. Terminali açın ve proje dizinine gidin.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+3. Gerekli bağımlılıkları yüklemek için aşağıdaki komutu çalıştırın:
+   
+   ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli/assets/75726215/63649434-abe8-4126-9c4e-408d4ecde27b)
 
-## Laravel Sponsors
+4. Proje dosyasında .env.example dosyasını .env olarak kopyalayın ve dosyada gerekli veritabanı bağlantı bilgilerini ayarlayın.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+5. Veritabanını oluşturmak için aşağıdaki komutu çalıştırın:
 
-### Premium Partners
+   ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli/assets/75726215/1b69a922-653a-424d-9b15-74500eb3e5d9)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+6. Uygulama anahtarını oluşturmak için aşağıdaki komutu çalıştırın:
 
-## Contributing
+   ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli/assets/75726215/6a4eb11b-c128-4c8a-aeb3-5be3f07fae53)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+7. Uygulamayı başlatmak için uygulamanın dizisinde sırasıyla aşağıdaki komutuları farklı termallerde çalıştırın:
 
-## Code of Conduct
+   ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli/assets/75726215/11878810-9fbe-4e08-932c-afd01af6e2b9)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+   ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli/assets/75726215/0768a060-e9fd-42fa-ad3f-516d0d604f8c)
 
-## Security Vulnerabilities
+8. Tarayıcınızda http://localhost:8000 adresine giderek uygulamaya erişebilirsiniz.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Kullanım
+Uygulama şimdi yerel sunucunuzda çalışmaya başlamalıdır. Tarayıcınızda `http://localhost:8000` adresine giderek uygulamayı görüntüleyebilirsiniz.
+
+## Kullanıcı Yönetimi
+
+### - Kullanıcı Girişi ve Çıkışı:
+"Login" Sayfasında kullanıcı adınızı ve şifrenizi girerek sisteme giriş yapabilirsiniz. Oturumu kapatmak için "Logout" seçeneğini tıklayarak çıkış 
+yapabilirsiniz.
+
+### - Sosyal Oturum Açma: 
+Google veya Facebook hesaplarınızı kullanarak da sisteme giriş yapabilirsiniz. "Login" sayfasında sosyal medya hesaplarıyla giriş yapma seçeneklerini bulabilirsiniz.
+
+### - Kullanıcı Yönetim Paneli: 
+Admin sayfasında kullanıcılarınızı ekleyebilir, düzenleyebilir ve silebilirsiniz. Kullanıcı yönetim panelinde kullanıcıların e-posta adresi, rolü, kayıt tarihi, son giriş tarihi ve diğer önemli bilgilerini görüntüleyebilirsiniz.
+
+Onun dışında da kullanıcıya ait müsterileri bilgilerine erişim sağlanmaktadır. Dilediği kullanıcıya müşteri ekleyebilir düzenleyebilir silebilir ve görüntüleyebilirsiniz.
+
+### - Rol Bazlı Erişim Kontrolü: 
+Kullanıcılara belirli roller('Admin || Kullanici') atanmıştır. Örneğin, "Admin" rolüne sahip kullanıcılar diğer kullanıcıları düzenleme yetkisine sahip olmaktadır.
+
+### - Kullanıcı Profili: 
+Her kullanıcının profil bilgilerini görüntüleyebilir ve düzenleyebilir. Kullanıcı "profile" sayfasında kullanıcının adı, e-posta adresi, profil resmi ve şifresi gibi bilgileri bulunmaktadır.
+
+## Müşteri Yönetim Paneli
+
+### - Müşteri Ekleme: 
+Müsteri Panelinde "Ekle" butonu tıklayarak çıkan formuna müşteri bilgilerini girerek veritabanına kaydedebilirsiniz. Müşteri bilgileri müşterinin adı, soyadı, e-posta adresi ve telefon numarasını içermektedir.
+
+### - Müşteri Düzenleme: 
+Her müşteriye ait ayrı bir düzenleme sayfası bulunmaktadır. Bu sayfada müşteri bilgilerini güncelleyebilir ve kaydedebilirsiniz.
+
+### - Müşteri Silme: 
+Müşteri listesinde "Action" sütunda her müşteri için bir "Sil" düğmesi bulunmaktadır. Bu düğmeye tıklandığında, ilgili müşteri kalıcı olarak silinir. Bu işlem gerçekleşmeden önce bir onay mesajı görüntülenmektedir.
+
+### - Yetkilendirme/Erişim Kontrolü: 
+Yetkilendirme sistemi sayesinde, yönetici dışındaki kullanıcılar yalnızca kendi ekledikleri müşterileri görüntüleyebilir, düzenleyebilir ve silebilir.
+
+### - Müşteri Arama: 
+Müşteri listesinde müşterileri adlarına, soyadlarına veya e-posta adreslerine göre arayabilirsiniz. Bu özellik, büyük müşteri listelerinde belirli müşterileri hızlıca bulmanıza yardımcı olmaktadır.
+
+### - Müşteri Ayrıntıları: 
+Her müşterinin detaylarını gösteren ayrı bir sayfa bulunmaktadır. Bu sayfada müşterinin adı, e-posta adresi, telefon numarası ve diğer bilgileri bulunmaktadır. Ayrıca, bu sayfada müşteriye özel notlar eklemek için bir özellik bulunmaktadır.
+
+## Müşteri İstatistikleri ve Grafikler
+
+- Bu kısmında iki tane grafik mevcuttur.
+- İlki, bütün zaman aralığı için her kullanıcı eklediği toplam müşteri sayısı görüntülenmektedir.
+- İkincisi ise, belirlenen bir zaman aralığında her kullanıcı eklediği toplam müşteri sayısı görüntülenmektedir.
+
+Bu grafikler ve sayaçlar, Laravel'in özelleştirilmiş Controller'ları ve View'ları kullanılarak oluşturulmuştur. Grafikler için Chart.js kütüphanesinden faydalandım.
+
+## Ek Özellikler
+
+### - Eylem Geçmişi: 
+Müşterilere yapılan her eylem (ekleme, düzenleme, silme vb.) kaydedilir ve bu eylemler "Archive" sayfasında eylem geçmişi görüntülenmektedir.
+
+### - Müşteri Verilerini İndirme: 
+Müşteri verilerini CSV veya Excel formatında indirebilirsiniz. Bu özellik sayesinde müşteri verilerini kolayca dışa aktarabilirsiniz. "Geliştirilmektedir"
+
+## Demo
+
+Şu linke tıklayarak demo videosuna erişebilirsiniz: https://www.youtube.com/watch?v=fkmYv_pqsmg 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
