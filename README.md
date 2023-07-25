@@ -26,7 +26,7 @@ Proje, Laravel ve Bootstrap kullanılarak oluşturulmuştur ve aşağıda belirt
 
 4. Proje dosyasında .env.example dosyasını .env olarak kopyalayın ve dosyada gerekli veritabanı bağlantı bilgilerini ayarlayın.
 
-5. Veritabanını oluşturmak için aşağıdaki komutu çalıştırın:
+5. Veritabanında tabloları oluşturmak için aşağıdaki komutu çalıştırın:
 
     ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli-GMYP/assets/75726215/24c40640-5e13-4909-b989-f6c35f861f77)
 
