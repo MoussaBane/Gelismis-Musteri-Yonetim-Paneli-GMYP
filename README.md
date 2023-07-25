@@ -106,6 +106,10 @@ Müşteri verilerini CSV veya Excel formatında indirebilirsiniz. Bu özellik sa
 
 Şu linke tıklayarak demo videosuna erişebilirsiniz: https://www.youtube.com/watch?v=fkmYv_pqsmg 
 
+## Deneme
+
+Kendiniz denemek isterseniz, bu linke 🔗 tıklayınız : http://hobibank.com
+
 
 
 
