@@ -24,24 +24,25 @@ Proje, Laravel ve Bootstrap kullanılarak oluşturulmuştur ve aşağıda belirt
 
     ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli-GMYP/assets/75726215/3006e84d-8e9c-4653-a554-bf18cb2eb2e7)
 
-
 4. Proje dosyasında .env.example dosyasını .env olarak kopyalayın ve dosyada gerekli veritabanı bağlantı bilgilerini ayarlayın.
 
 5. Veritabanını oluşturmak için aşağıdaki komutu çalıştırın:
 
-    ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli/assets/75726215/1b69a922-653a-424d-9b15-74500eb3e5d9)
+    ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli-GMYP/assets/75726215/671a6eed-c10a-4393-a9f4-1763b08bc9cd)
 
 6. Uygulama anahtarını oluşturmak için aşağıdaki komutu çalıştırın:
 
-    ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli/assets/75726215/6a4eb11b-c128-4c8a-aeb3-5be3f07fae53)
+    ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli-GMYP/assets/75726215/158fc62e-5d32-4c11-9365-d2984de67ff9)
 
 7. Uygulamayı başlatmak için uygulamanın dizisinde sırasıyla aşağıdaki komutuları farklı termallerde çalıştırın:
 
-    ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli/assets/75726215/11878810-9fbe-4e08-932c-afd01af6e2b9)
+    ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli-GMYP/assets/75726215/809e0f1f-6a67-4b74-a888-ecc12bbbb106)
 
-    ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli/assets/75726215/0768a060-e9fd-42fa-ad3f-516d0d604f8c)
+    ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli-GMYP/assets/75726215/57e548df-26f7-4b7c-9a5c-e8d8fb8655e8)
 
-8. Tarayıcınızda http://localhost:8000 adresine giderek uygulamaya erişebilirsiniz.
+   Not: Build dosyası oluşturulduğu için direkt olarak "php artisan serve" çalıştırılarak uygulamayı başlatabilirsiniz.
+
+9. Tarayıcınızda http://localhost:8000 adresine giderek uygulamaya erişebilirsiniz.
 
 ## Kullanım
 
