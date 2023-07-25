@@ -22,7 +22,8 @@ Proje, Laravel ve Bootstrap kullanılarak oluşturulmuştur ve aşağıda belirt
 
 3. Gerekli bağımlılıkları yüklemek için aşağıdaki komutu çalıştırın:
 
-    ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli/assets/75726215/63649434-abe8-4126-9c4e-408d4ecde27b)
+    ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli-GMYP/assets/75726215/3006e84d-8e9c-4653-a554-bf18cb2eb2e7)
+
 
 4. Proje dosyasında .env.example dosyasını .env olarak kopyalayın ve dosyada gerekli veritabanı bağlantı bilgilerini ayarlayın.
 
