@@ -123,4 +123,4 @@ Müşteri verilerini CSV veya Excel formatında indirebilirsiniz. Bu özellik sa
 
 ## Deneme
 
-Kendiniz denemek isterseniz, bu linke 🔗 tıklayınız : http://hobibank.com
+Kendiniz denemek isterseniz, bu linke 🔗 tıklayınız : http://customers.panel.hobibank.com
