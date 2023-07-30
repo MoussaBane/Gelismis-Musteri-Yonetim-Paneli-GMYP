@@ -26,15 +26,17 @@ Proje, Laravel ve Bootstrap kullanılarak oluşturulmuştur ve aşağıda belirt
 
 4. Proje dosyasında .env.example dosyasını .env olarak kopyalayın ve dosyada gerekli veritabanı bağlantı bilgilerini ayarlayın.
 
-5. Veritabanında tabloları oluşturmak için aşağıdaki komutu çalıştırın:
+5. Veritabanında tabloları oluşturmak için veya 2. komutu kullanarak factory ile türetilen verileriyle tabloları oluşturulmak için aşağıdaki komutu çalıştırın:
 
     ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli-GMYP/assets/75726215/24c40640-5e13-4909-b989-f6c35f861f77)
 
-6. Uygulama anahtarını oluşturmak için aşağıdaki komutu çalıştırın:
+   ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli-GMYP/assets/75726215/1a1fad68-ae1f-4413-96ef-c104d21f9a85)
+
+7. Uygulama anahtarını oluşturmak için aşağıdaki komutu çalıştırın:
 
     ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli-GMYP/assets/75726215/12e31645-090f-4d7b-a5ef-10e0a2a9b658)
 
-7. Uygulamayı başlatmak için uygulamanın dizisinde sırasıyla aşağıdaki komutuları farklı termallerde çalıştırın:
+8. Uygulamayı başlatmak için uygulamanın dizisinde sırasıyla aşağıdaki komutuları farklı termallerde çalıştırın:
 
     ![image](https://github.com/MoussaBane/Gelismis-Musteri-Yonetim-Paneli-GMYP/assets/75726215/a959f82f-b2ec-488b-81ab-c79ea3791c34)
 
