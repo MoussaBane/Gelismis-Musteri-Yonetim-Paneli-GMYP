@@ -17,7 +17,13 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
+
+    /*
+     To be able to use that syntax "ControllerName@functionName" to define a route;
+     */
     protected $namespace = 'App\\Http\\Controllers';
+
+    
     public const HOME = '/home';
 
     /**
